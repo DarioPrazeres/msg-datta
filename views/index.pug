@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  a(href="/") Home 
+  br
+  a(href="/users") Users 
+  br
+  a(href="/new") New Messages  
+  h1= title
+  - var list = messages 
+  each item in list 
+    section 
+      h3=item.text
+      p=item.user
+      p=item.added

@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+input.msg{
+  height: 100px;
+  margin: 5px;
+}
+input.auth{
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+input.sub{
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}

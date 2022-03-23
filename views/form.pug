@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    form(action="/new", method="post") 
+        input(type="text", name="messageNew" class='msg' placeholder
+        ='Message' required)
+        input(type="text", name="author" class='auth' placeholder='Author Name' required)
+        input(type="submit" class='sub')
+    a(href="/") Home 
